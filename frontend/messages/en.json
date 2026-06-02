@@ -1,0 +1,57 @@
+{
+  "common": {
+    "language": "Languages",
+    "included-features": "What’s included",
+    "contact": "Contact Us",
+    "recommend": "Recommended",
+    "monthly": "Monthly"
+  },
+  "footer": {
+    "text": "Odoo is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.",
+    "follow-us": "Follow Us",
+    "copyright": "{year} made with ❤️ by"
+  },
+  "page": {
+    "contact": {
+      "address-title": "Our office",
+      "contact-title": "Our contact",
+      "address": "OneWorld Information Technology Co., Ltd No. 336C st 93 Corner 282, Boeung Kengkong 1 Commune, Boeung Kengkong District, Phnom Penh, Cambodia 12211",
+      "email": "Email",
+      "phone": "Phone",
+      "telegram": "Telegram",
+      "form": {
+        "field": {
+          "fullname": {
+            "label": "Full Name",
+            "placeholder": "Enter your full name"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Enter your email"
+          },
+          "phone": {
+            "label": "Phone",
+            "placeholder": "Enter your phone number"
+          },
+          "message": {
+            "label": "Message",
+            "placeholder": "Enter your message"
+          }
+        },
+        "validation": {
+          "fullname-empty": "Full name is required",
+          "email-invalid": "Invalid email",
+          "phone-empty": "Phone number is required",
+          "phone-invalid": "Invalid phone number",
+          "message_empty": "Message is required"
+        },
+        "btn-submit": "Submit"
+      }
+    },
+    "not-found": {
+      "title": "Page not found",
+      "subtitle": "The page you are looking for is unavailable.",
+      "back": "Go back home"
+    }
+  }
+}

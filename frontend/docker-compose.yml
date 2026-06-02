@@ -1,0 +1,19 @@
+services:
+  coffee:
+    image: coffee
+    container_name: coffee
+    restart: "always"
+    logging:
+      options:
+        max-size: "10m"
+    build:
+      context: .
+    ports:
+      - "${PORT}:${PORT}"
+    volumes:
+      - ./.next/cache/images:/app/.next/cache/images
+      - ./.next/cache/fetch-cache:/app/.next/cache/fetch-cache
+    env_file:
+      - .env
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
