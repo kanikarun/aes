@@ -1,0 +1,43 @@
+{
+  "name": "cafe-strapi",
+  "version": "1.0.1",
+  "private": true,
+  "description": "A Strapi application for cafe",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "7.1.1",
+    "@strapi/plugin-users-permissions": "5.45.0",
+    "@strapi/strapi": "5.45.0",
+    "mysql2": "3.20.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "strapi-plugin-config-sync": "3.2.0",
+    "strapi-plugin-navigation": "3.3.7",
+    "strapi-plugin-populate-all": "1.5.2",
+    "styled-components": "6.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "20",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "typescript": "5"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x"
+  },
+  "strapi": {
+    "uuid": "ac9bf11a-2b2b-4fec-bfa1-448aa66e48a7",
+    "installId": "438242e33c9f5ca5d07956b0b1f2229d1024f9fad65186b8b02396b78a775d40"
+  }
+}
