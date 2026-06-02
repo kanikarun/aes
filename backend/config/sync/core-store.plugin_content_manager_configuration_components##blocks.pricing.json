@@ -1,0 +1,128 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.pricing",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "relationOpenMode": "modal",
+      "mainField": "documentId",
+      "defaultSortBy": "documentId",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "sectionTitle": {
+        "edit": {
+          "label": "Section Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sectionTitle",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "variant": {
+        "edit": {
+          "label": "Variant",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "variant",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "items": {
+        "edit": {
+          "label": "Items",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "items",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "isHide": {
+        "edit": {
+          "label": "Hide",
+          "description": "Enabled or disabled this section",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "isHide",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "documentId": {
+        "edit": {},
+        "list": {
+          "label": "documentId",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "variant",
+        "isHide",
+        "items"
+      ],
+      "edit": [
+        [
+          {
+            "name": "sectionTitle",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "variant",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "items",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "isHide",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "uid": "blocks.pricing",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

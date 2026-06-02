@@ -1,0 +1,218 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::achievement.achievement",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "relationOpenMode": "modal",
+      "mainField": "enTitle",
+      "defaultSortBy": "enTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "type": {
+        "edit": {
+          "label": "Type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Type",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "enTitle": {
+        "edit": {
+          "label": "Title (English)",
+          "description": "",
+          "placeholder": "Enter your title",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "enDescription": {
+        "edit": {
+          "label": "Description (English)",
+          "description": "",
+          "placeholder": "Enter your description",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "enDescription",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "kmTitle": {
+        "edit": {
+          "label": "Title (Khmer)",
+          "description": "",
+          "placeholder": "Enter your title",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "kmTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "kmDescription": {
+        "edit": {
+          "label": "Description (Khmer)",
+          "description": "",
+          "placeholder": "Enter your description",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "kmDescription",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "image": {
+        "edit": {
+          "label": "Image",
+          "description": "Aspect ratio 1:1 / Dimension 500x500",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "documentId": {
+        "edit": {},
+        "list": {
+          "label": "documentId",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "type",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "enTitle",
+            "size": 6
+          },
+          {
+            "name": "kmTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "enDescription",
+            "size": 6
+          },
+          {
+            "name": "kmDescription",
+            "size": 6
+          },
+          {
+            "name": "image",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "image",
+        "enTitle",
+        "type"
+      ]
+    },
+    "uid": "api::achievement.achievement"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

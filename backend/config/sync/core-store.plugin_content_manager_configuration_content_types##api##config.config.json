@@ -1,0 +1,276 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::config.config",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "relationOpenMode": "modal",
+      "mainField": "facebookLink",
+      "defaultSortBy": "facebookLink",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "facebookLink": {
+        "edit": {
+          "label": "Facebook Link",
+          "description": "",
+          "placeholder": "Enter your link",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "facebookLink",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "instagramLink": {
+        "edit": {
+          "label": "Instagram Link",
+          "description": "",
+          "placeholder": "Enter your link",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "instagramLink",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "tiktokLink": {
+        "edit": {
+          "label": "Tiktok Link",
+          "description": "",
+          "placeholder": "Enter your link",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "tiktokLink",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "telegramLink": {
+        "edit": {
+          "label": "Telegram Link",
+          "description": "",
+          "placeholder": "Enter your link",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "telegramLink",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "address": {
+        "edit": {
+          "label": "Address",
+          "description": "",
+          "placeholder": "Enter your address",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "email": {
+        "edit": {
+          "label": "Email",
+          "description": "",
+          "placeholder": "Enter your email",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "phone": {
+        "edit": {
+          "label": "Phone",
+          "description": "",
+          "placeholder": "Enter your phone",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "phone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "logo": {
+        "edit": {
+          "label": "Logo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "og": {
+        "edit": {
+          "label": "Open Graph Image",
+          "description": "Aspect ratio 16:9 / Dimension 1920x1080",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "og",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "documentId": {
+        "edit": {},
+        "list": {
+          "label": "documentId",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "facebookLink",
+        "instagramLink"
+      ],
+      "edit": [
+        [
+          {
+            "name": "logo",
+            "size": 6
+          },
+          {
+            "name": "og",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "address",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "email",
+            "size": 6
+          },
+          {
+            "name": "phone",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "facebookLink",
+            "size": 6
+          },
+          {
+            "name": "instagramLink",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "tiktokLink",
+            "size": 6
+          },
+          {
+            "name": "telegramLink",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "api::config.config"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

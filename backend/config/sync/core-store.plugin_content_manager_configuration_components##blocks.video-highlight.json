@@ -1,0 +1,108 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.video-highlight",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "relationOpenMode": "modal",
+      "mainField": "documentId",
+      "defaultSortBy": "documentId",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "Use span to switch color. Ex: Service <span>For You</span>",
+          "placeholder": "Enter your title",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "video": {
+        "edit": {
+          "label": "Video",
+          "description": null,
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "video",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "isHide": {
+        "edit": {
+          "label": "Hide",
+          "description": "Enabled or disabled this section",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "isHide",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "documentId": {
+        "edit": {},
+        "list": {
+          "label": "documentId",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "video",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "isHide",
+            "size": 6
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "video",
+        "isHide",
+        "title"
+      ]
+    },
+    "uid": "blocks.video-highlight",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

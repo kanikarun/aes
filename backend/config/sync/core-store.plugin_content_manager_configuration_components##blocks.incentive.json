@@ -1,0 +1,146 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.incentive",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "relationOpenMode": "modal",
+      "mainField": "documentId",
+      "defaultSortBy": "documentId",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "sectionTitle": {
+        "edit": {
+          "label": "Section Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sectionTitle",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "image": {
+        "edit": {
+          "label": "Image",
+          "description": "Aspect ratio 16:9 / Dimension 1920x1080",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "items": {
+        "edit": {
+          "label": "Items",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "items",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "showBgCurve": {
+        "edit": {
+          "label": "Show Background Curve",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "showBgCurve",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "isHide": {
+        "edit": {
+          "label": "Hide",
+          "description": "Enabled or disabled this section",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "isHide",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "documentId": {
+        "edit": {},
+        "list": {
+          "label": "documentId",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "isHide",
+        "sectionTitle",
+        "image"
+      ],
+      "edit": [
+        [
+          {
+            "name": "sectionTitle",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "image",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "items",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "showBgCurve",
+            "size": 6
+          },
+          {
+            "name": "isHide",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "blocks.incentive",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

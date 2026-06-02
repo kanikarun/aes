@@ -1,0 +1,206 @@
+{
+  "key": "plugin_content_manager_configuration_components::blocks.banner",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "relationOpenMode": "modal",
+      "mainField": "title",
+      "defaultSortBy": "tagline",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tagline": {
+        "edit": {
+          "label": "Tagline",
+          "description": "",
+          "placeholder": "Enter your tagline",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "tagline",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "Use span to switch color. Ex: Service <span>For You</span>",
+          "placeholder": "Enter your title",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "buttons": {
+        "edit": {
+          "label": "Buttons",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "buttons",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "bgColor": {
+        "edit": {
+          "label": "Background Color",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bgColor",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "image": {
+        "edit": {
+          "label": "Image",
+          "description": "Aspect ratio 4:3 / Dimension 1280x960",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "isHide": {
+        "edit": {
+          "label": "Hide",
+          "description": "Enabled or disabled this section",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "isHide",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "content": {
+        "edit": {
+          "label": "Content",
+          "description": "",
+          "placeholder": "Enter your content",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "content",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "variant": {
+        "edit": {
+          "label": "Variant",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "variant",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "documentId": {
+        "edit": {},
+        "list": {
+          "label": "documentId",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "buttons",
+        "tagline"
+      ],
+      "edit": [
+        [
+          {
+            "name": "variant",
+            "size": 6
+          },
+          {
+            "name": "bgColor",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "tagline",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "content",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "image",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "buttons",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "isHide",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "blocks.banner",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
